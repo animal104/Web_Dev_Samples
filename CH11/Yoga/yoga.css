@@ -1,0 +1,231 @@
+/*
+Mickey "Code Monkey" Saine
+M02: Chapter 9 - Path of Light Yoga Studio
+4/2/2021
+yoga.css
+This file is designed to make my yoga studio Pretty
+*/
+
+/* Global styles for the document */
+* { box-sizing: border-box; }
+
+
+body {
+		background-color: #3F2860;
+		color: #3F2860;
+		font-family: Verdana, Arial, sans-serif;}
+		
+header, nav, main, footer {
+    display: block; 
+}
+
+
+/* Styles for the header element */		
+header { background-color: #40407A;      
+        color: #FFF;
+        background-image: url(sunrise.jpg);
+        background-size: 100% 100%;
+		background-position: left;
+		min-height: 200px;
+}
+header a { text-decoration: none; }
+header a:link { color: #FFF; }
+header a:visited { color: #FFF; }
+header a:hover { color: #EDF5F5; }
+
+/* Styles for the h1 element selector */
+h1 {
+  padding-top: 50px;
+  padding-left: 2em;
+  padding-right: .5em;
+  }
+
+/* Styles for the anchor elements */
+nav { 
+    font-weight: bold;
+    padding: 1em;
+	padding-top: .5em;
+    float: left;
+    width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	text-align: right;
+	background-color: white;
+	margin: 0;
+	padding-right: 0;
+	z-index: 9999;
+}
+nav a {
+    text-decoration: none;
+	}
+nav a:link { color: #3F2860; }
+nav a:visited { color: #497777; }
+nav a:hover { color:#A26100;
+				border: 3px #333333 inset; 
+				}
+
+nav ul{
+    list-style-type: none;
+	margin: 0; 
+	padding-right: 2em; 
+	font-size: 1.2em; 
+
+}
+
+nav li { display: 
+		inline;
+		padding-left: 2em; 
+		width: 30%; 
+		}
+nav a { text-decoration: none; }
+nav a:link { color: #3F2860; }
+nav a:visited { color: #497777; }
+nav a:hover { color: #A26100; }
+li, dd { font-size: 90%; }
+
+/* Styles for a class named studio */	  
+.studio {font-style: italic;}
+
+/* Configure Footer */
+footer { 
+		font-size: .60em;
+		font-style: italic;
+		text-align: center;
+		}
+		#mobile { display: inline;}
+		#desktop { display: none;}
+
+/* Style rule for an ID named wrapper */	
+#wrapper { 
+           background-color: #F5F5F5;
+		   padding: 2em; }
+
+main{
+    padding-left:2em;
+    padding-right:2em;
+    display:block;
+    margin-left: 10px;
+    padding-top: 1em;
+}
+
+
+#mathero { height: 300px; 
+			background-image: url(yogamat.jpg);
+			background-size: 100% 100%; 
+			background-repeat: no-repeat;
+			display: none;
+			}
+		  
+#loungehero { height: 300px; 
+			background-image: url(yogalounge.jpg);
+			background-size: 100% 100%; 
+			background-repeat: no-repeat;
+            }
+
+#flow { margin: 1em; 
+		display: block;
+}
+
+
+h2 { margin: 0; }	
+
+.clear{
+    clear: both;
+}
+
+.home{
+		height: 20vh;
+		padding-top: 2em;
+		padding-left: 10%;
+	}
+	
+.content{
+		height: 20vh;
+		padding-top: 2em;
+		padding-left: 10%;
+	}
+
+@media (min-width: 600px) {		  
+		nav ul { 
+				display: flex;
+				flex-flow: row nowrap;
+				justify-content: flex-end; 
+				}	
+		nav li {
+				width: 7em; 
+				}
+		section {
+				padding-left: 2em;
+		        padding-right: 2em; 
+				}
+		#mathero, #loungehero { 
+				display: block;
+				padding-bottom: 1em; 
+				}
+		#flow { 
+				display: flex;
+		        flex-direction: row; 
+				}
+ }
+ @media (min-width: 1024px) { 
+		header { 
+				font-size: 120%; 
+				}
+		nav { 
+				font-weight: bold; 
+				}
+		.home { 
+				height: 50vh;
+		        padding-top: 5em;
+				padding-left: 8em; 
+				}
+		.content {
+				height: 30vh;
+				padding-top: 2em;
+				padding-left: 8em; 
+				}
+		#wrapper { 
+				width: 80%; 
+				margin: auto; 
+				}
+ }
+
+table{
+    margin: auto;
+    width: 60%;
+    border: 1px solid #3F2860;
+    border-collapse: collapse;
+    margin-bottom: 1em;
+}
+td, th{
+    padding: 5px;
+    border: 1px solid #3F2860;
+}
+tr:nth-of-type(even){
+    background-color: #DBE8E9;
+}
+caption{
+    margin: 1em;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+label{
+    float: left;
+    display: block;
+    text-align: right;
+    font-weight: bold;
+    width: 10em;
+    padding-right: 1em;
+}
+input, textarea{
+    display: block;
+    margin-bottom: 2em;
+}
+#mySubmit{
+    margin-left: 12em;
+}
+form{
+    padding: 3em;
+}

@@ -1,0 +1,98 @@
+/*
+Mickey "Code Monkey" Saine
+M02: Chapter 3 - Path of Light Yoga Studio
+4/2/2021
+yoga.css
+This file is designed to make my yoga studio Pretty
+*/
+
+/* Global styles for the document */
+* { box-sizing: border-box; }
+
+
+body { background-color: #3F2860;
+		color: #3F2860;
+		font-family: Verdana, Arial, sans-serif;}
+		
+header, nav, main, footer {
+    display: block; 
+}
+
+/* Styles for the header element */		
+header { background-color: #80CBC4;
+		background-image: url(lilyheader.jpg);
+		background-repeat: no-repeat;
+		background-position: right;
+		height: 150px;}
+
+/* Styles for the h1 element selector */
+h1 {
+  padding-top: 50px;
+  padding-left: 2em;}
+
+/* Styles for the anchor elements */
+nav { 
+    font-weight: bold;
+    padding: 1em;
+    float: left;
+    width: 160px;
+}
+nav a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    border: 3px #CCCCCC outset;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+nav a:link { color: #3F2860; }
+nav a:visited { color: #497777; }
+nav a:hover { color:#A26100; border: 3px 
+inset #333333;}
+
+nav ul{
+    list-style-type: none; margin: 0; padding: 0;
+}
+
+/* Styles for a class named studio */	  
+.studio {font-style: italic;}
+
+/* Configure Footer */
+footer { background-color: #80CBC4;
+		font-size: .60em;
+		font-style: italic;
+		text-align: center;
+		padding: 1em;}
+
+/* Style rule for an ID named wrapper */	
+#wrapper {
+		  width: 80%;
+		  margin-left: auto;
+		  margin-right: auto;
+		  background-color: #F5F5F5;
+		  min-width: 1200px;
+		  max-width: 1480px;
+}
+
+main{
+    padding-left:2em;
+    padding-right:2em;
+    display:block;
+    margin-left: 170px;
+    padding-top: 1em;
+}
+
+
+
+#hero{
+  padding-top: 1em;
+  padding-bottom: 1em;}
+  
+  .floatleft{
+    float: left;
+    margin-right: 4em;
+}
+.clear{
+    clear: both;
+}

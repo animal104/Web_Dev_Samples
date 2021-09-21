@@ -1,0 +1,61 @@
+/*
+Mickey "Code Monkey" Saine
+M02: Chapter 3 - Path of Light Yoga Studio
+4/2/2021
+yoga.css
+This file is designed to make my yoga studio Pretty
+*/
+
+/* Global styles for the document */
+body { background-color: #3F2860;
+		color: #3F2860;
+		font-family: Verdana, Arial, sans-serif;}
+
+/* Styles for the header element */		
+header { background-color: #80CBC4;
+		background-image: url(lilyheader.jpg);
+		background-repeat: no-repeat;
+		background-position: right;
+		height: 150px;}
+
+/* Styles for the h1 element selector */
+h1 {
+  padding-top: 50px;
+  padding-left: 2em;}
+
+/* Styles for the anchor elements */
+nav { font-weight: bold;
+	text-align: center;
+	 text-decoration: none;
+	 padding: 1em;}
+
+/* Styles for a class named studio */	  
+.studio {font-style: italic;}
+
+/* Configure Footer */
+footer { background-color: #80CBC4;
+		font-size: .60em;
+		font-style: italic;
+		text-align: center;
+		padding: 1em;}
+
+/* Style rule for an ID named wrapper */	
+#wrapper {
+		  width: 80%;
+		  margin-left: auto;
+		  margin-right: auto;
+		  background-color: #F5F5F5;
+		  min-width: 1000px;
+		  max-width: 1280px;
+}
+
+main {
+  padding-left: 2em;
+  padding-right: 2em;}
+
+img{
+  padding-left: 1em;
+  padding-right: 1em;}
+
+#hero{
+  text-align: center;}
